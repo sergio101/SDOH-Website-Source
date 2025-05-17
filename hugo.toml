@@ -1,0 +1,8 @@
+baseURL = 'http://sixdegreesofohio.com'
+languageCode = 'en-us'
+Title = 'Six Degrees of Ohio'
+minify = true
+
+[params]
+	motto = "Playing music from the heart and soul of Ohio"
+	mp3_path = "https://six-degrees-podcast.nyc3.cdn.digitaloceanspaces.com/mp3_files"

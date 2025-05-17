@@ -1,0 +1,24 @@
+{{ define "main" }}
+<div class="container mx-auto bg-slate-300 p-6 md:p-10 mt-10 rounded-lg">
+  <!-- Full-width header -->
+  <div class="mb-6">
+    <h1 class="text-3xl mb-0">
+      <a href="/" class="text-blue-600 hover:underline">{{ .Site.Title }}</a> – {{ .Title }}
+    </h1>
+    <h2><em>{{ .Site.Params.motto }}</em></h2>
+  </div>
+
+  <!-- Responsive Flex Layout -->
+  <div class="flex flex-col md:flex-row gap-6">
+    <!-- Sidebar: below on mobile, left on desktop -->
+    <div class="w-full md:w-1/3 order-2 md:order-1 bg-gray-100 p-4 rounded-lg">
+      {{ partial "side-bar-content" . }}
+    </div>
+
+    <!-- Main content: above on mobile, right on desktop -->
+    <div class="w-full md:w-2/3 order-1 md:order-2 bg-white p-4 rounded-lg">
+      {{ partial "single-page.html" . }}
+    </div>
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,14 @@
+
+<div class="bg-white p-6 rounded-lg shadow">
+  <h1 class="text-3xl font-bold mb-4">{{ .Title }}</h1>
+
+  {{ with .Params.main_image }}
+    <div class="float-right w-1/4 ml-6 mt-2 mb-2">
+      <img src="/images/{{ . }}" alt="Page image" class="rounded-lg shadow" />
+    </div>
+  {{ end }}
+
+  <div class="prose clear-both">
+    {{ .Content }}
+  </div>
+</div>

@@ -1,0 +1,9 @@
+<ul class="list-disc list-inside">
+{{ range where .Site.RegularPages "Section" "page" }}
+    <li>
+      <a href="{{ .RelPermalink }}" class="text-blue-600 hover:underline">
+        {{ .Title }}
+      </a>
+    </li>
+  {{ end }}
+</ul>

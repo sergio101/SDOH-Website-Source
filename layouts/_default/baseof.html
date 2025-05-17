@@ -1,0 +1,32 @@
+<head>
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H2EP7LG654"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H2EP7LG654');
+</script>
+
+ <meta charset="UTF-8">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>{{.Title}} | {{.Site.Title}}</title>
+ <link rel="stylesheet" href="/dist/output.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- Meta Descriptions  -->
+ {{ if .Params.description }}
+  <meta name="description" content="{{ .Params.description }}">
+{{ else }}
+  <meta name="description" content="{{ .Summary }}">
+{{ end }}
+
+</head>
+
+<body class="bg-slate-500">
+ {{ block "main" .}} {{ end }}
+</body>
+
+</html>

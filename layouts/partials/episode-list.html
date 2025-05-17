@@ -1,0 +1,20 @@
+{{ $episodes := slice }}
+
+{{ range where site.RegularPages "Section" "episode" }}
+  {{ $episodes = $episodes | append (dict "page" . "date" (time .Params.air_date)) }}
+{{ end }}
+
+{{ $sorted := sort $episodes "date" "desc" }}
+
+<ul class="list-disc list-inside space-y-2">
+  {{ range $sorted }}
+    <li>
+      <a href="{{ .page.RelPermalink }}" class="text-blue-600 hover:underline">
+        {{ .page.Title }}
+      </a>
+      <span class="text-sm text-gray-500">
+        ({{ .date.Format "2006-01-02" }})
+      </span>
+    </li>
+  {{ end }}
+</ul>

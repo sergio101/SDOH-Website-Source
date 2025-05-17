@@ -1,0 +1,20 @@
+<div class="relative">
+  {{ with .Params.main_image }}
+    <img
+      src="/images/{{ . }}"
+      alt="Episode image"
+      class="float-right w-1/2 ml-6 mt-2"
+    />
+  {{ end }}
+
+  <div class="text-sm text-gray-600 mb-4">
+    Aired: {{ .Params.air_date }}
+  </div>
+
+  {{ partial "audio-player.html" (dict "base" site.Params.mp3_base "path" .Params.audio_path) }}
+
+  <div class="prose mt-4">
+    {{ .Content }}
+  </div>
+</div>
+

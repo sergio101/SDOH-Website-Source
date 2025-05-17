@@ -1,0 +1,18 @@
+{{ $base := .base }}
+{{ $path := .path }}
+
+{{ if and $base $path }}
+  <div class="my-4">
+    <audio controls preload="metadata" class="w-full max-w-md">
+      <source src="{{ printf "%s/%s" $base $path }}" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <div class="mt-2 text-sm">
+      <a href="{{ printf "%s/%s" $base $path }}" download class="text-blue-600 hover:underline">
+        Download episode
+      </a>
+    </div>
+  </div>
+{{ else }}
+  <p class="text-sm text-gray-500">Audio not available.</p>
+{{ end }}
