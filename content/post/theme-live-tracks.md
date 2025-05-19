@@ -2,7 +2,7 @@
 title: "June Theme: Live Tracks"
 tags: 
 date: 2025-05-15
-description: This month, I am asking artists to submit live tracks for a theme based show next month
+description: Six Degrees of Ohio is calling for live music submissions for its June theme show. If you're an artist with a live track, now's the perfect time to get featured!
 draft: false
 ---
 In June, I'd like to create a theme-based show featuring live tracks from our featured artists. The idea is, and entire show of live music captured in your favorite clubs.

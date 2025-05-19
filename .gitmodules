@@ -1,0 +1,3 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:sergio101/SDOH-website.git

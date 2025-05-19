@@ -1,0 +1,18 @@
+<audio id="audio-{{ .Get "id" | default (.Get "src" | md5) }}" controls>
+  <source src="{{ .Get "src" }}" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<script>
+  (function() {
+    const audioId = "audio-{{ .Get "id" | default (.Get "src" | md5) }}";
+    const startTime = {{ .Get "start" | default "0" }};
+    const audio = document.getElementById(audioId);
+
+    if (audio) {
+      audio.addEventListener('loadedmetadata', function () {
+        audio.currentTime = startTime;
+      });
+    }
+  })();
+</script>
