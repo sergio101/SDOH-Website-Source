@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "page/submit-a-shoutout.md",
+                "file": "post/my-interview-with-chris-donley.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "submit-a-shoutout"
+              "title": "my-interview-with-chris-donley"
             }
           }
         ]
@@ -167,8 +167,9 @@
   },
   "active": "8dea347ca34eb333",
   "lastOpenFiles": [
-    "post/theme-live-tracks.md",
     "page/submit-a-shoutout.md",
+    "post/my-interview-with-chris-donley.md",
+    "post/theme-live-tracks.md",
     "post",
     "page/how-to-submit.md",
     "[A.md",

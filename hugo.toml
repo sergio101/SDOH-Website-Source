@@ -6,3 +6,18 @@ minify = true
 [params]
 	motto = "Playing music from the heart and soul of Ohio"
 	mp3_path = "https://six-degrees-podcast.nyc3.cdn.digitaloceanspaces.com/mp3_files"
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+home = ["HTML", "RSS", "RobotsTXT"]
+
+[outputFormats.RobotsTXT]
+mediaType = "text/plain"
+baseName = "robots"
+isPlainText = true
+notAlternative = true
