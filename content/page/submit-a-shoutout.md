@@ -12,7 +12,6 @@ Remember! This is just a suggestion, and not a script. Be creative! Go nuts! Jus
 Here are a few examples:
 
 **Cara from Seaside Holiday**
-
 {{< audio_player src="https://six-degrees-podcast.nyc3.cdn.digitaloceanspaces.com/shoutouts/SDOH-shoutout-Cara.mp3" >}}
 
 **Adam from Phestur**

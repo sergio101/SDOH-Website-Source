@@ -4,7 +4,7 @@ air_date: 2025-05-03T17:40:21-04:00
 visible_date: 2025-05-12
 audio_filename: Six-Degrees-of-Ohio-Episode-189.mp3
 main_image: SDOH-Cover-Image-189.jpg
-description: "This week, we feaature new music from The Blue Herons and Discuss books from The Stepford Five and Scott Paris"
+description: This week, we feaature new music from The Blue Herons and Discuss books from The Stepford Five and Scott Paris
 draft: false
 ---
 ## New music from

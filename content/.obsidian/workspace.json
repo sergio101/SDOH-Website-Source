@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "post/my-interview-with-chris-donley.md",
+                "file": "episode/episode-191.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "my-interview-with-chris-donley"
+              "title": "episode-191"
             }
           }
         ]
@@ -167,14 +167,17 @@
   },
   "active": "8dea347ca34eb333",
   "lastOpenFiles": [
+    "episode/Episode-190.md",
+    "episode/Episode-189.md",
     "page/submit-a-shoutout.md",
+    "episode/episode-191.md",
+    "post/big-band-dance-for-old-timers.md",
     "post/my-interview-with-chris-donley.md",
+    "blog",
     "post/theme-live-tracks.md",
     "post",
     "page/how-to-submit.md",
     "[A.md",
-    "page/about-us.md",
-    "episode/Episode-190.md",
-    "episode/Episode-189.md"
+    "page/about-us.md"
   ]
 }
