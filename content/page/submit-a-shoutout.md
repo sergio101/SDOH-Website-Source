@@ -3,6 +3,8 @@ title: Submit a Shoutout
 description: Record a shoutout for Six Degrees of Ohio for airplay
 draft: false
 ---
+{{< image src="images/SDOH-shoutout-page.png" alt="Submit a Shoutout" class="rounded-lg shadow" >}}
+
 If you or your band would like to be a part of Six Degrees of Ohio, record yourself saying something like:
 
 > This is <name> from <city>, and you're listening to Six Degrees of Ohio on Wadsworth Community Radio

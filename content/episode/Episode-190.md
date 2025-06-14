@@ -11,16 +11,15 @@ draft: false
 [How to Tune in](/page/how-to-tune-in/)
 # New music from
 
-- The Feral Housecats
+- [Feral Housecats](https://feralhousecats.com)
 # Featured Artists
-- Akronauts
-- Anitakeys
-- Feral Housecats
-- Gina Brooklyn
-- Krank
-- Thor Platter
-- Tim Easton
-- Tim Easton and The Freelan Barons
-- Tony Lang Band
+- [Akronauts](https://www.akronauts.com)
+- [Anitakeys](https://anitakeys.com)
+- [Feral Housecats](https://feralhousecats.com)
+- [Gina Brooklyn](https://www.facebook.com/ginabrooklynnmusic/)
+- [Krank](http://www.krank1.com)
+- [Thor Platter](https://www.thorplatter.com)
+- [Tim Easton](https://www.timeaston.com)
+- [Tony Lang Band](https://www.facebook.com/TonyLangBand/)
 # Audio and show notes
 Please note that the audio, complete notes, and playlist will not be available for this episode until May 31.

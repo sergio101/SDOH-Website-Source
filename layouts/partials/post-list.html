@@ -1,5 +1,5 @@
 <ul class="list-disc list-inside">
-  {{ range where site.RegularPages "Type" "post" }}
+  {{ range where .Site.RegularPages "Type" "post" }}
     <li>
       <a class="text-blue-600 hover:underline" href="{{ .RelPermalink }}">{{ .Title }}</a>
     </li>
