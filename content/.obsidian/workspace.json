@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "episode/Episode-192.md",
+                "file": "episode/episode-192.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Episode-192"
+              "title": "episode-192"
             }
           }
         ]
@@ -167,11 +167,9 @@
   },
   "active": "6269f0a4d1282970",
   "lastOpenFiles": [
-    "episode/Episode-190.md",
     "episode/episode-191.md",
-    "episode/Episode-192.md",
-    "episode/Episode-192.md",
     "episode/episode-192.md",
+    "episode/Episode-190.md",
     "page/bands-on-bandcamp.md",
     "page/submit-a-shoutout.md",
     "episode/Episode-189.md",

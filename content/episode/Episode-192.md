@@ -1,11 +1,11 @@
 ---
 title: Episode 192
-epsisode_no: ""
-air_date: 2025-06-14T17:43:10-04:00
+epsisode_no: "192"
+air_date: 2025-06-11
 visible_date: 2025-06-11
 audio_filename: ""
 main_image: ""
-description: ""
+description: "Episode 191 of Six Degrees of Ohio where we play new music from Ohio bands: Psychic Priest, Black Sasquatch, StoneFace, Memories In Music"
 draft: false
 ---
 <div >

@@ -2,6 +2,7 @@
 title: Bands on BandCamp
 description: A list of bands featured on Six Degrees of Ohio who also have a presence on the BandCamp site at BandCamp.com
 draft: false
+fb_image: "SDOH-header-bandcamp-page.png"
 ---
 <div >
   <img src="/images/SDOH-header-bandcamp-page.png" alt="My Photo" class="rounded-lg shadow">
