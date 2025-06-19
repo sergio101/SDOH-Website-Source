@@ -16,26 +16,27 @@
  <link rel="stylesheet" href="/dist/output.css">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-<!-- Meta Descriptions  -->
+ <!-- Meta Descriptions  -->
  {{ if .Params.description }}
-  <meta name="description" content="{{ .Params.description }}">
-{{ else }}
-  <meta name="description" content="{{ .Summary }}">
-{{ end }}
+ <meta name="description" content="{{ .Params.description }}">
+ {{ else }}
+ <meta name="description" content="{{ .Summary }}">
+ {{ end }}
 
 
 
-<!-- OG Meta Tags -->
-<meta property="og:title" content="{{ .Title }}">
-<meta property="og:description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}">
-<meta property="og:type" content="article">
-<meta property="og:url" content="{{ .Permalink }}">
+ <!-- OG Meta Tags -->
+ <meta property="og:title" content="{{ .Title }}">
+ <meta property="og:description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}">
+ <meta property="og:type" content="article">
+ <meta property="og:url" content="{{ .Permalink }}">
 
-<!-- social media images -->
-{{ with .Params.fb_image }}
-  <meta property="og:image" content="{{ "images/" | relURL }}{{ . }}">
-{{ end }}
-
+ <!-- social media images -->
+ {{ with .Params.fb_image }}
+ <meta property="og:image" content="{{ (printf "images/%s" .) | absURL }}">
+ {{ else }}
+ <meta property="og:image" content="{{ "images/fb_default_banner.png" | absURL }}">
+ {{ end }}
 </head>
 
 <body class="bg-slate-500">

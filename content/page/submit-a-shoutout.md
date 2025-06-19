@@ -1,6 +1,7 @@
 ---
 title: Submit a Shoutout
 description: Record a shoutout for Six Degrees of Ohio for airplay
+fb_image: "SDOH-shoutout-page.png"
 draft: false
 ---
 {{< image src="images/SDOH-shoutout-page.png" alt="Submit a Shoutout" class="rounded-lg shadow" >}}
