@@ -6,6 +6,7 @@ visible_date: {{ now.Format "2006-01-02" }}
 audio_filename: ""
 main_image: ""
 description: ""
+fb_image: ""
 draft: true
 ---
 # New music From

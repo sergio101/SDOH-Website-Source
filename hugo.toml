@@ -1,4 +1,4 @@
-baseURL = 'http://sixdegreesofohio.com'
+baseURL = 'https://www.sixdegreesofohio.com'
 languageCode = 'en-us'
 Title = 'Six Degrees of Ohio'
 minify = true
