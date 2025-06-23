@@ -1,9 +1,10 @@
-+++
-date = '2025-05-21T18:51:45-04:00'
-draft = false
-title = 'Planning a Big Band Dance for the Old Timers'
-description = "If I had unlimited funds, I'd hire the Ashland High School Jazz Band for a concert for the local old timers"
-+++
+---
+date: '2025-05-21'
+published_date: '2025-05-21'
+draft: false
+title: 'Planning a Big Band Dance for the Old Timers'
+description: "If I had unlimited funds, I'd hire the Ashland High School Jazz Band for a concert for the local old timers"
+---
 ## File under "Putting it out to the universe."
 
 The next two posts should probably be filed under "Putting it out to the universe" or "If I had unlimited funds."

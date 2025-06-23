@@ -1,7 +1,7 @@
 <ul class="list-disc list-inside">
-  {{ range where .Site.RegularPages "Type" "post" }}
+  {{ range sort (where .Site.RegularPages "Type" "post") ".Params.published_date" "desc" }}
     <li>
       <a class="text-blue-600 hover:underline" href="{{ .RelPermalink }}">{{ .Title }}</a>
     </li>
-  {{ end }}
+    {{ end }}
 </ul>

@@ -1,7 +1,7 @@
 ---
 title: Calling BandCamp Artists
 tags: 
-published_date: 2025-06-07
+published_date: '2025-06-07'
 description: Calling bands with BandCamp profiles to be listed on Six Degrees of Ohio for BandCamp Friday
 draft: false
 date: 2025-06-07
