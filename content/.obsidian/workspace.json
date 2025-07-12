@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e99d2fbe46ad2ee3",
+        "id": "8955eb2ee5606626",
         "type": "tabs",
         "children": [
           {
-            "id": "6269f0a4d1282970",
+            "id": "5eb910a3bdab235d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "post/theme-live-tracks.md",
+                "file": "episode/Episode-194.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "theme-live-tracks"
+              "title": "Episode-194"
             }
           }
         ]
@@ -165,28 +165,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6269f0a4d1282970",
+  "active": "5eb910a3bdab235d",
   "lastOpenFiles": [
+    "episode/Episode-194-links-updated.md",
+    "episode/Episode-194.md",
+    "episode/Episode-193.md",
+    "episode/Episode-190.md",
+    "episode/Episode-190.md",
+    "episode/Episode-189.md",
+    "episode/episode-191.md",
+    "episode/episode-192.md",
+    "post/calling-all-porch-rokr-bands.md",
+    "post/theme-live-tracks.md",
     "post/my-interview-with-chris-donley.md",
     "post/big-band-dance-for-old-timers.md",
     "post/artists-for-bandcamp-friday.md",
-    "post/calling-all-porch-rokr-bands.md",
-    "post/theme-live-tracks.md",
     "2025-06-21.md",
-    "episode/Episode-193.md",
-    "episode/episode-192.md",
     "episode/episode-193.md",
-    "episode/episode-191.md",
-    "episode/Episode-190.md",
     "page/bands-on-bandcamp.md",
     "page/submit-a-shoutout.md",
-    "episode/Episode-189.md",
     "2025-06-09.md",
     "post/Calling BandCamp Artists for BandCamp Friday.md",
     "post/calling-all-bands-from-bandcamp-friday.md",
     "post/Untitled.md",
     "episode/Episode-189-links-updated.md",
-    "episode/Episode-190-links-updated.md",
     "episode/episode-191-links-updated.md",
     "blog",
     "post",
